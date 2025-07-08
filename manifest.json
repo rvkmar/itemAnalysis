@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "locale": "en_US",
+  "platform": {
+    "OS.type": "unix",
+    "file.sep": "/",
+    "dynlib.ext": ".so",
+    "GUI": "X11",
+    "version.string": "R version 4.3.0 (2023-04-21)"
+  },
+  "metadata": {
+    "appmode": "shiny",
+    "primary_rmd": null,
+    "primary_doc": "server/app.R",
+    "content_category": null,
+    "has_parameters": false
+  },
+  "packages": [
+    {
+      "name": "shiny"
+    },
+    {
+      "name": "dplyr"
+    },
+    {
+      "name": "ggplot2"
+    },
+    {
+      "name": "readr"
+    },
+    {
+      "name": "plotly"
+    }
+  ],
+  "files": ["server/app.R", "data/item_analysis_class_3_fixed_subjects.csv"]
+}
