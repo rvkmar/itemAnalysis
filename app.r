@@ -31,12 +31,15 @@ ui <- fluidPage(
     mainPanel(
       h4("Difficulty vs Discrimination - Chennai"),
       plotlyOutput("chennai_plot"),
+      hr(),
       
       h4("Difficulty vs Discrimination - Cuddalore"),
       plotlyOutput("cuddalore_plot"),
+      hr(),
       
       h4("Item Count by Subject - Chennai"),
       plotlyOutput("chennai_bar"),
+      hr(),
       
       h4("Item Count by Subject - Cuddalore"),
       plotlyOutput("cuddalore_bar")
