@@ -21,7 +21,7 @@ file_map <- list(
 )
 
 ui <- fluidPage(
-  titlePanel("SLAS 2025 - Item Analysis Dashboard"),
+  titlePanel("SLAS 2025 - Chennai and Cuddalore districts - Item Analysis Dashboard"),
 
   sidebarLayout(
     sidebarPanel(
